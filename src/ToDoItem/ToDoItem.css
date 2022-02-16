@@ -1,0 +1,45 @@
+li {
+    position: relative;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    margin: 15px 20px 10px 20px;
+    width: calc(100% - 80px);
+    height: auto;
+    box-shadow: -10px 5px 25px rgba(67, 67, 67, 0.542);
+}
+li:first-child{
+    margin: 40px 20px 10px 20px;
+}
+.text{
+    grid-column: 2;
+    
+}
+.text-completed{
+    text-decoration: line-through;
+    
+}
+li:hover{
+    background-color: rgb(230, 230, 230);
+}
+.x {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.x:hover{
+    color: red;
+}
+
+.check {
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.search{
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Montserrat';
+    width: calc(100% - 62px);
+    margin: 0 24px;
+    cursor: pointer;
+}
+
+.search::placeholder{
+    color: rgb(118, 118, 118);
+    text-align: center;
+}
+.search:focus{
+    outline-color: aqua;
+}

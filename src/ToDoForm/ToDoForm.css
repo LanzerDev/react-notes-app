@@ -1,0 +1,36 @@
+form{
+    background-color: white;
+    width: 80%;
+    height: 45%;
+    text-align: center;
+}
+label {
+    
+}
+textarea{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-top: 10px;
+    width: 85%;
+    height: 80%;
+    outline-color: rgb(0, 123, 255);
+    resize: none;
+    text-align: center;
+    overflow-x: hidden;
+}
+button {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: rgb(88, 161, 201);
+    width: 30%;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: -1px 5px 10px rgb(151, 151, 151);
+}
+button:hover{
+    background-color: rgb(0, 123, 255);
+}
