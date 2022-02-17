@@ -8,18 +8,28 @@ li {
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
     margin: 15px 20px 10px 20px;
-    width: calc(100% - 80px);
+    width: calc(100% -80px);
     height: auto;
     box-shadow: -10px 5px 25px rgba(67, 67, 67, 0.542);
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) and (min-width: 430px) {
     li {
-        width: calc(100% - 80px);
-        height: 100px;
-        
+        width: 50vh;
+        height: 20vh;    
     }
     
 }
+@media (max-width: 650px) and (min-width: 500px) {
+    li {
+        width: 70vh;
+        height: 20vh;    
+    }
+    
+}
+
+
+
+
 li:first-child{
     margin: 40px 20px 10px 20px;
 }
