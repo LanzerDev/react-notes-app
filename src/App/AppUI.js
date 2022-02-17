@@ -7,6 +7,7 @@ import { CreateToDoButton } from "../CreateToDoButton";
 import { ToDoContext } from "../ToDoContext";
 import { Modal } from "../modal";
 import { ToDoForm } from "../ToDoForm"
+import './App.css';
 
 function AppUI() {
 

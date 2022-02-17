@@ -12,6 +12,14 @@ li {
     height: auto;
     box-shadow: -10px 5px 25px rgba(67, 67, 67, 0.542);
 }
+@media (max-width: 800px) {
+    li {
+        width: calc(100% - 80px);
+        height: 100px;
+        
+    }
+    
+}
 li:first-child{
     margin: 40px 20px 10px 20px;
 }
