@@ -22,16 +22,19 @@
     transition: .3s ease;
     z-index: 1;
 }
-
-    .button:hover{
-        transform: rotate(180deg);
-    }
+button {
+    width: 5rem;
+    height: 5rem;
+}
+.button:hover{
+    transform: rotate(180deg);
+}
 
 
 @media (max-width: 800px){
     .button {
-        width: 15vh;
-        height: 15vh;
+        width: 6rem;
+        height: 6rem;
     }
     body {
         max-width: 100%;
