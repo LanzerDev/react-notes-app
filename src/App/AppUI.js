@@ -8,6 +8,7 @@ import { ToDoContext } from "../ToDoContext";
 import { Modal } from "../modal";
 import { ToDoForm } from "../ToDoForm"
 import './App.css';
+import { AppVersion } from "../version"
 
 function AppUI() {
 
@@ -51,7 +52,7 @@ function AppUI() {
                 setOpenModal={setOpenModal}
                 openModal={openModal}
             />
-
+            <AppVersion />
         </React.Fragment>
     );
 }
