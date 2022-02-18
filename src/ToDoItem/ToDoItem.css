@@ -6,28 +6,40 @@ li {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: rgb(255, 255, 255);
     border-radius: 2px;
     margin: 15px 20px 10px 20px;
     width: calc(100% -80px);
     height: auto;
     box-shadow: -10px 5px 25px rgba(67, 67, 67, 0.542);
+    word-wrap: break-word;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(45deg,#fd004c,#fe9000,#3edf4b,#3363ff,#b102b7);
+    border-image-slice: 1;
+
 }
+
 @media (max-width: 500px) and (min-width: 430px) {
     li {
-        width: 20rem;
-        height: auto;    
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: auto;
+        min-height: 100px;
+        padding: 0;
     }
     
 }
 @media (max-width: 650px) and (min-width: 500px) {
     li {
-        width: 30rem;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
         height: auto;    
     }
     
 }
-
 
 
 
@@ -62,3 +74,6 @@ li:hover{
 .check {
     cursor: pointer;
 }
+
+
+

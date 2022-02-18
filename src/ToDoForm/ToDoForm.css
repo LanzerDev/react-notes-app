@@ -1,7 +1,7 @@
 form{
     background-color: white;
     width: 80%;
-    height: 45%;
+    height: auto;
     text-align: center;
 }
 
@@ -10,19 +10,25 @@ textarea{
     font-size: 20px;
     margin-top: 10px;
     width: 85%;
-    height: 80%;
+    height: 250px;
     outline-color: rgb(0, 123, 255);
     resize: none;
     text-align: center;
     overflow-x: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(45deg,#fd004c,#fe9000,#3edf4b,#3363ff,#b102b7);
+    border-image-slice: 1;
 }
 button {
+    
     font-size: 25px;
     font-weight: 400;
     font-family: 'Montserrat';
     color: white;
-    background-color: rgb(88, 161, 201);
-    width: 30%;
+    background-color: #5b81ff;
+    width: auto;
+    height: 50px;
     margin: 5px;
     border: none;
     border-radius: 3px;

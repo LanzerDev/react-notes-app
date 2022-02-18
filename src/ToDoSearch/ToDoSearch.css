@@ -3,9 +3,14 @@
     align-items: center;
     font-size: 2rem;
     font-family: 'Montserrat';
-    width: calc(100% - 62px);
-    margin: 0 24px;
+    width: 60%;
+    margin-right: 20%;
+    margin-left: 20%;
     cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(45deg,#fd004c,#fe9000,#3edf4b,#3363ff,#b102b7);
+    border-image-slice: 1;
 }
 
 .search::placeholder{
@@ -13,5 +18,5 @@
     text-align: center;
 }
 .search:focus{
-    outline-color: aqua;
+    outline-color: #5b81ff;
 }

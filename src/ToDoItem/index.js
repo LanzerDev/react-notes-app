@@ -5,6 +5,7 @@ function ToDoItem(props){
    
     
     return (
+        <div className="rgb">
         <li>
             <span 
             className="check"
@@ -18,6 +19,7 @@ function ToDoItem(props){
             onClick={props.onDeleted}
             >X</span>
         </li>
+        </div>
     );
 }
 
