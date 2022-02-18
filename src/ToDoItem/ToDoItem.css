@@ -10,6 +10,7 @@ li {
     margin: 15px 20px 10px 20px;
     width: calc(100% -80px);
     height: auto;
+    min-height: 100px;
     box-shadow: -10px 5px 25px rgba(67, 67, 67, 0.542);
     word-wrap: break-word;
     background-color: white;
@@ -36,7 +37,8 @@ li {
         width: 90%;
         margin-right: 5%;
         margin-left: 5%;
-        height: auto;    
+        height: auto;
+        min-height: 100px; 
     }
     
 }
