@@ -42,6 +42,16 @@ li {
     }
     
 }
+@media (max-width: 470px) and (min-width: 350px) {
+    li {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        height: auto;
+        min-height: 100px; 
+    }
+    
+}
 
 
 
