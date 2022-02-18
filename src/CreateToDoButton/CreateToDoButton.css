@@ -2,8 +2,6 @@
     background-color: rgb(70, 159, 226);
     border-radius: 50px;
     border: none;
-    width: 15vh;
-    height: 15vh;
     position: fixed;
     display: flex;
     bottom: 24px;
@@ -21,23 +19,10 @@
     transform: rotate(0);
     transition: .3s ease;
     z-index: 1;
-}
-button {
-    width: 5rem;
-    height: 5rem;
+    width: 60px;
+    height: 60px;
 }
 .button:hover{
     transform: rotate(180deg);
 }
 
-
-@media (max-width: 800px){
-    .button {
-        width: 6rem;
-        height: 6rem;
-    }
-    body {
-        max-width: 100%;
-        height: auto;
-    }
-}
