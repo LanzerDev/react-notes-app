@@ -38,3 +38,18 @@ button {
 button:hover{
     background-color: rgb(0, 123, 255);
 }
+.titulo-nota{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    margin-top: 10px;
+    width: 85%;
+    height: 40px;
+    outline-color: rgb(0, 123, 255);
+    resize: none;
+    text-align: center;
+    overflow-x: hidden;
+    border-style: solid;
+    border-width: 1px;
+    border-image: linear-gradient(45deg,#fd004c,#fe9000,#3edf4b,#3363ff,#b102b7);
+    border-image-slice: 1;
+}

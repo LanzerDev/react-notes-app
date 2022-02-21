@@ -55,9 +55,7 @@ li {
 
 
 
-li:first-child{
-    margin: 40px 20px 10px 20px;
-}
+
 .text{
     grid-column: 2;
     
