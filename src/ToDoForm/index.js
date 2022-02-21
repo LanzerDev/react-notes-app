@@ -25,7 +25,7 @@ function ToDoForm() {
         <form onSubmit={onAdd}>
             
             <textarea
-            className='titulo-nota'
+                className='titulo-nota'
                 placeholder={'Titulo de la nota'}
             />
             <textarea
