@@ -26,7 +26,7 @@ function ToDoForm() {
             
             <textarea
                 className='titulo-nota'
-                placeholder={'Titulo de la nota'}
+                placeholder={'Titulo de la nota'}        
             />
             <textarea
                 value={newTodoValue}
