@@ -20,8 +20,7 @@ textarea{
     border-image: linear-gradient(45deg,#fd004c,#fe9000,#3edf4b,#3363ff,#b102b7);
     border-image-slice: 1;
 }
-button {
-    
+.addBtn {
     font-size: 25px;
     font-weight: 400;
     font-family: 'Montserrat';
@@ -35,8 +34,26 @@ button {
     cursor: pointer;
     box-shadow: -1px 5px 10px rgb(151, 151, 151);
 }
-button:hover{
-    background-color: rgb(0, 123, 255);
+.addBtn:hover{
+    background-color: rgb(22, 82, 146);
+}
+
+.cancelBtn {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    color: white;
+    background-color: #ff5061;
+    width: auto;
+    height: 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: -1px 5px 10px rgb(151, 151, 151);
+}
+.cancelBtn:hover{
+    background-color: #802932;
 }
 .titulo-nota{
     font-family: 'Montserrat';

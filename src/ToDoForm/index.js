@@ -37,6 +37,7 @@ function ToDoForm() {
                 <button
                     onClick={onCancel}
                     type="button"
+                    className='cancelBtn'
                 >
                     cancelar
                 </button>
@@ -44,6 +45,7 @@ function ToDoForm() {
                 <button
                     onKeyUp={onAdd}
                     type="submit"
+                    className='addBtn'
                 >
                     añadir
                 </button>

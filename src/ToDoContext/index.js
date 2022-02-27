@@ -32,7 +32,6 @@ function ToDoProvider(props) {
 
 
 
-
     const completeToDos = (text) => {
 
         const todoIndex = ToDos.findIndex(td => td.text === text);
