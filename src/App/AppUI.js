@@ -36,6 +36,7 @@ function AppUI() {
                     <ToDoItem
                         key={td.text}
                         text={td.text}
+                        title={td.title}
                         completed={td.completed}
                         onCompleted={() => completeToDos(td.text)}
                         onDeleted={() => deleteToDos(td.text)}

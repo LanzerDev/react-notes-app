@@ -4,6 +4,7 @@ import './ToDoForm.css'
 
 function ToDoForm() {
     const [newTodoValue, setNewTodoValue] = React.useState('')
+    const [newTodoTitle, setNewTodoTitle] = React.useState('')
     const {
         addToDo,
         setOpenModal,
@@ -14,11 +15,14 @@ function ToDoForm() {
     }
     const onAdd = (event) => {
         event.preventDefault();
-        addToDo(newTodoValue);
+        addToDo(newTodoValue, newTodoTitle);
         setOpenModal(false)
     }
     const onChange = (event) => {
         setNewTodoValue(event.target.value)
+    }
+    const onChangeTitle = (event) => {
+        setNewTodoTitle(event.target.value)
     }
 
     return (
@@ -26,7 +30,8 @@ function ToDoForm() {
             
             <textarea
                 className='titulo-nota'
-                placeholder={'Titulo de la nota'}        
+                placeholder={'Titulo de la nota'}  
+                onChange={onChangeTitle}      
             />
             <textarea
                 value={newTodoValue}

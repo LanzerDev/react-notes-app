@@ -8,7 +8,6 @@ li {
     align-items: center;
     border-radius: 2px;
     margin: 15px 20px 10px 20px;
-    width: calc(100% -80px);
     height: auto;
     min-height: 100px;
     box-shadow: -10px 5px 25px rgba(67, 67, 67, 0.542);
@@ -84,6 +83,12 @@ li:hover{
 .check {
     cursor: pointer;
 }
-
+.todo-title {
+    margin: 15px 20px 10px 20px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: -15px;
+    background-color: #ffffff;
+}
 
 

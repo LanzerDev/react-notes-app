@@ -1,6 +1,6 @@
 import React from "react";
 
-//custom hook para guargar cosas en el local Storage
+//custom hook para guardar cosas en el local Storage
 function useLocalStorage(itemName, initialValue) {
     const [error, setError] = React.useState(false);
     const [loading, setLoading] = React.useState(true);

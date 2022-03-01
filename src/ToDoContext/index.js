@@ -53,11 +53,12 @@ function ToDoProvider(props) {
 
     }
 
-    const addToDo = (text) => {
+    const addToDo = (text, title) => {
         const newTodos = [...ToDos];
         newTodos.push({
             text,
             completed: false,
+            title,
         });
         saveToDos(newTodos)
     }
